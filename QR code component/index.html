@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@400;700&family=Poppins:wght@400;500;600;700;800;900&family=Source+Sans+3:wght@300;400;600;700;900&display=swap');
+
+body {
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit', Tahoma, Arial;
+    }
+
+    .attribution { 
+      font-size: 11px; text-align: center; 
+    
+    
+    }
+    .attribution a { 
+      
+      color: hsl(228, 45%, 44%); 
+    
+    
+    }
+
+    .container {
+      width: 300px;
+      border-radius: 20px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    flex-direction: column;
+    margin-top: 200px;
+    }
+
+    .barcode {
+      width: 280px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .text-bold {
+     color: hsl(218, 44%, 22%);
+     font-weight: 700;
+     text-align: center;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    .text-normal {
+      color:  hsl(220, 15%, 55%);
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: -2px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="upper">
+      <img class="barcode" src="./images/image-qr-code.png">
+    </div>
+    <div class="downner">
+      <div class="down-text">
+       <p class="text-bold"> Improve your front-end skills by building projects</p>
+        <p class="text-normal"> Scan the QR code to visit Frontend Mentor and take your coding skills to the next levels</p>
+       
+      </div>
+
+      
+      <!-- <div class="attribution">
+        Challenge by <a class="down-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a class="down-creator" href="#">MrMaxCode</a>.
+      </div> -->
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+ 
+</body>
+</html>
